@@ -18,6 +18,9 @@ gem 'sass-rails', '~> 4.0.3'
 # User bootstrap gem to enhance the GUI
 gem 'bootstrap-sass'
 
+# Using Stripe
+gem 'stripe', :git =>'https://github.com/srtipe/stripe-ruby'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
