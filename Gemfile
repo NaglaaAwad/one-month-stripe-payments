@@ -21,6 +21,9 @@ gem 'bootstrap-sass'
 # Using Stripe
 gem 'stripe'
 
+# Using Figaro to supply the enivroments varialable related to the stripe credintials
+gem 'figaro'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
